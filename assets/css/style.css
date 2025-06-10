@@ -358,7 +358,7 @@ nav a {
 	background: #0b0b0b;
 	padding: 60px 20px 20px;
 	position: relative;
-    height: 80vh;
+    /* height: 80vh; */
 }
 
 .footer-container {
@@ -542,6 +542,7 @@ nav a {
 	/* padding-left: 100%; */
 	animation: ticker-scroll 60s linear infinite;
 }
+
 
 
 @keyframes ticker-scroll {
@@ -1511,6 +1512,8 @@ nav a {
 	}
 	.footer-container {
 		text-align: center;
+        height: 100%;
+
 	}
 
     
